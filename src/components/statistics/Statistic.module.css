@@ -71,8 +71,6 @@ img {
   height: 100%;
 
   text-shadow: 0 0 1px #000;
-  background-color: '#' + (Math.random() .toString(16) + '000000')
-    .substring(2, 8) .toUpperCase();
 }
 .label {
   font-size: 0.8rem;
