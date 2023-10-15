@@ -1,0 +1,65 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.transactionHistoryTable {
+  margin: 0 auto;
+  margin-bottom: 32px;
+  padding: 16px;
+
+  max-width: 90%;
+  width: 90%;
+  border-radius: 8px;
+  box-shadow: -0.0625rem -0.0625rem 0.0625rem #fff,
+    0.0625rem 0.0625rem 0.0625rem #babecc;
+}
+
+.tableHead {
+  border-radius: 8px;
+  background-color: #f8f8fa;
+  color: #9e0202;
+  text-shadow: 0.0625rem 0.0625rem 0.0625rem #fff;
+  font-family: 'Roboto';
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.tableHeadRow:hover {
+  background-color: #9e0202;
+  -webkit-box-shadow: 0 6px 6px -6px #0e1119;
+  -moz-box-shadow: 0 6px 6px -6px #0e1119;
+  box-shadow: 0 6px 6px -6px #0e1119;
+  color: #ffffff;
+  text-shadow: 0.0625rem 0.0625rem 0.0625rem #9e0202;
+}
+
+.tableBody {
+  background-color: #fff;
+}
+.tableBodyRow {
+  background-color: #f8dddd;
+}
+.tableBodyColumn {
+  padding-left: 16px;
+  border-right: 0.125rem solid #f8dddd;
+}

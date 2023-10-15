@@ -1,0 +1,76 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.friendList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  margin: 0 auto;
+  padding: 0;
+  margin-bottom: 32px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 42px;
+  margin: 0 auto;
+  padding: 8px;
+
+  max-width: 100%;
+  width: 360px;
+
+  border-radius: 8px;
+  box-shadow: -1px -1px 1px #fff, 1px 1px 1px #babecc;
+  background-color: #f8f8fa;
+}
+.name {
+  margin-left: 10px;
+  color: #9e0202;
+  text-shadow: 1px 1px 1px #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.status {
+  display: block;
+  margin-left: 1.625rem;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 60px;
+  width: 60px;
+
+  border-radius: 50%;
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+}

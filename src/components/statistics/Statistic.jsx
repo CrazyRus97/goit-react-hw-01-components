@@ -6,11 +6,10 @@ const getRandomHexColor = idx =>
     .toString(16)
     .padStart(6, 0)}`;
 
-const randomColor = {
-    backgroundColor: getRandomHexColor()
-};
-
 export const Statistics = ({ stats }) => {
+    const randomColor = {
+        backgroundColor: getRandomHexColor()
+    };
     return (
     <section className={css.statistics}>
         <h2 className={css.title}>Upload stats</h2>
